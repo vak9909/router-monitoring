@@ -5,3 +5,5 @@ The location of my primary residence had only two options to get internet connec
 Router Model: Netgear Nighthawk M1 Mobile Router
 
 The python script continuously (every 10 seconds) grabs a list of JSON parameters, extracts the most useful ones and records them in a log file.
+
+Then complile the python script to a Windows executable and install it as a service using NSSM (https://nssm.cc) to run in the background.
